@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    queue:
+      name: message
+    exchange:
+      name: exchange.message
+    route-key:
+      id: message-app
